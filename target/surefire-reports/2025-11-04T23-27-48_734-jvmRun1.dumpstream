@@ -1,0 +1,84 @@
+# Created at 2025-11-04T23:27:54.984
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run started with id: 2a31c408-ce20-40fa-82d9-dc8258e709b0'.
+
+# Created at 2025-11-04T23:28:03.601
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;31mERROR[0;39m] Access to BrowserStack denied due to incorrect credentials.'.
+
+# Created at 2025-11-04T23:28:03.603
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m]'.
+
+# Created at 2025-11-04T23:28:03.605
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[2025-11-05T02:28:'.
+
+# Created at 2025-11-04T23:28:03.606
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '03.602106400Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException:'.
+
+# Created at 2025-11-04T23:28:03.610
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Non 200 response'.
+
+# Created at 2025-11-04T23:28:03.611
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.testOps.RequestException.non200(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.613
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.616
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.616
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.testOps.RequestUtils.launch(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.616
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.testOps.Listener.onStart(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.625
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)'.
+
+# Created at 2025-11-04T23:28:03.625
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at java.base/java.lang.reflect.Method.invoke(Method.java:580)'.
+
+# Created at 2025-11-04T23:28:03.625
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.625
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at jdk.proxy2/jdk.proxy2.$Proxy8.onStart(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.625
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.625
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.632
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.632
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)'.
+
+# Created at 2025-11-04T23:28:03.632
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)'.
+
+# Created at 2025-11-04T23:28:03.632
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at java.base/java.lang.reflect.Method.invoke(Method.java:580)'.
+
+# Created at 2025-11-04T23:28:03.636
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)'.
+
+# Created at 2025-11-04T23:28:03.636
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)'.
+
+# Created at 2025-11-04T23:28:10.051
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run started with id: 2705a4d0-128a-47df-941a-c21b3f427c41'.
+
+# Created at 2025-11-04T23:28:10.744
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run started with id: dc81a73f-e6e5-4247-b79a-203e393babd8'.
+
+# Created at 2025-11-04T23:28:10.906
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run started with id: 5c6140b6-8552-42b6-9397-870fc88812e1'.
+
+# Created at 2025-11-04T23:28:27.762
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run ended for id: 2a31c408-ce20-40fa-82d9-dc8258e709b0, testhub id:'.
+
+# Created at 2025-11-04T23:28:27.763
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream ''.
+

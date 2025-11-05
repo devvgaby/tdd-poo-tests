@@ -1,0 +1,398 @@
+23:27:54.448 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:27:54.456 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.0
+23:27:54.457 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:27:54.667 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, user.dir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, localrepository=C\:\\Users\\GabriellyPontes\\.m2\\repository}
+23:27:54.978 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+23:27:54.982 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 2a31c408-ce20-40fa-82d9-dc8258e709b0
+23:27:54.982 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:27:54.995 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\GabriellyPontes\.browserstack already exist
+23:27:54.997 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+23:27:54.997 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+23:27:55.583 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+23:27:55.597 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+23:27:55.598 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+23:27:59.737 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:28:03.600 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+23:28:03.601 [main] WARN  com.browserstack.testOps.Listener - Exception in testhub build creation Access to BrowserStack denied due to incorrect credentials.
+23:28:03.602 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2025-11-05T02:28:03.602106400Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+
+23:28:03.603 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:28:03.604 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:28:04.681 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Error trying to download BrowserStackLocal binary: Error trying to fetch the source URL: Server returned HTTP response code: 401 for URL: https://local.browserstack.com/binary/api/v1/endpoint.
+23:28:08.046 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:28:08.338 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:28:08.795 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, user.dir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, localrepository=C\:\\Users\\GabriellyPontes\\.m2\\repository}
+23:28:09.255 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:28:09.265 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, user.dir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, localrepository=C\:\\Users\\GabriellyPontes\\.m2\\repository}
+23:28:09.974 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, user.dir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, localrepository=C\:\\Users\\GabriellyPontes\\.m2\\repository}
+23:28:10.043 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 2705a4d0-128a-47df-941a-c21b3f427c41
+23:28:10.048 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:28:10.087 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\GabriellyPontes\.browserstack already exist
+23:28:10.090 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+23:28:10.090 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+23:28:10.736 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: dc81a73f-e6e5-4247-b79a-203e393babd8
+23:28:10.743 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:28:10.799 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\GabriellyPontes\.browserstack already exist
+23:28:10.801 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+23:28:10.801 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+23:28:10.899 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 5c6140b6-8552-42b6-9397-870fc88812e1
+23:28:10.906 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:28:10.936 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\GabriellyPontes\.browserstack already exist
+23:28:10.936 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+23:28:10.936 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+23:28:11.081 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+23:28:11.109 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+23:28:11.109 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+23:28:11.701 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+23:28:11.716 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+23:28:11.717 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+23:28:11.822 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+23:28:11.839 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+23:28:11.840 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+23:28:14.826 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:28:15.382 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:28:15.515 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:28:16.920 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo, TestClass :: tests\SingleTest
+23:28:17.993 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo, TestClass :: tests\SingleTest
+23:28:20.153 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo, TestClass :: tests\SingleTest
+23:28:21.217 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:28:21.227 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:28:21.337 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:28:21.349 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:28:21.656 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:28:21.662 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:28:22.604 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Response code 401. Message: Invalid username or password
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOPGABY', ip: '10.0.0.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: null, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: chrome, browserName: chrome, browserVersion: null, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #1, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2327_DesktopGaby_BR3c, networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}], desiredCapabilities=Capabilities {browserName: chrome, browserVersion: null, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: chrome, browserName: chrome, browserVersion: null, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #1, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2327_DesktopGaby_BR3c, networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}}]
+Capabilities {}
+23:28:22.638 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Response code 401. Message: Invalid username or password
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOPGABY', ip: '10.0.0.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Edge, browserVersion: latest, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: Edge, browserName: Edge, browserVersion: latest, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #1, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2327_DesktopGaby_BR3c, networkLogs: false, os: Windows, osVersion: 10, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}], desiredCapabilities=Capabilities {browserName: Edge, browserVersion: latest, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: Edge, browserName: Edge, browserVersion: latest, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #1, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2327_DesktopGaby_BR3c, networkLogs: false, os: Windows, osVersion: 10, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}}]
+Capabilities {}
+23:28:24.113 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Response code 401. Message: Invalid username or password
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOPGABY', ip: '10.0.0.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: latest, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: Chrome, browserName: Chrome, browserVersion: latest, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #1, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2327_DesktopGaby_BR3c, networkLogs: false, os: OS X, osVersion: Big Sur, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}], desiredCapabilities=Capabilities {browserName: Chrome, browserVersion: latest, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: Chrome, browserName: Chrome, browserVersion: latest, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #1, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2327_DesktopGaby_BR3c, networkLogs: false, os: OS X, osVersion: Big Sur, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}}]
+Capabilities {}
+23:28:25.280 [main] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+23:28:25.431 [Thread-0] ERROR c.browserstack.testOps.RequestUtils - [RequestUtils] Error in stop: Non 200 response
+com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+23:28:26.395 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - [collectBuildData] Skipping build data collection: runSmartSelection is not enabled.
+23:28:26.395 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+23:28:26.715 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo\browserstack.yml
+23:28:27.453 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to upload logs : 401
+23:28:27.453 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to delete debug log: java.nio.file.FileSystemException: C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo\log\browserstack-javaagent.debug.log: O arquivo já está sendo usado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.sendLogs(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+23:28:27.454 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+23:28:27.755 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Execute API call to get build details failed - Unexpected character (H) at position 0.
+23:28:27.761 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 2a31c408-ce20-40fa-82d9-dc8258e709b0, testhub id: 
+23:28:27.762 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:30:19.543 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:30:19.550 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.0
+23:30:19.551 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:30:19.718 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, user.dir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, localrepository=C\:\\Users\\GabriellyPontes\\.m2\\repository}
+23:30:20.009 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+23:30:20.013 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 0491597b-ee76-4996-bc4b-c6885ec308b9
+23:30:20.014 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:30:20.037 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\GabriellyPontes\.browserstack already exist
+23:30:20.038 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+23:30:20.038 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+23:30:20.428 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+23:30:20.443 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+23:30:20.443 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+23:30:24.831 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:30:25.482 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+23:30:25.482 [main] WARN  com.browserstack.testOps.Listener - Exception in testhub build creation Access to BrowserStack denied due to incorrect credentials.
+23:30:25.482 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2025-11-05T02:30:25.482154300Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+
+23:30:25.482 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:30:25.482 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:30:26.206 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Error trying to download BrowserStackLocal binary: Error trying to fetch the source URL: Server returned HTTP response code: 401 for URL: https://local.browserstack.com/binary/api/v1/endpoint.
+23:30:27.089 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:30:27.142 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:30:27.159 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:30:27.381 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, user.dir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, localrepository=C\:\\Users\\GabriellyPontes\\.m2\\repository}
+23:30:27.429 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, user.dir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, localrepository=C\:\\Users\\GabriellyPontes\\.m2\\repository}
+23:30:27.451 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, user.dir=C\:\\Users\\GabriellyPontes\\Documents\\QUARTO SEMESTRE\\POO\\tdd_poo, localrepository=C\:\\Users\\GabriellyPontes\\.m2\\repository}
+23:30:27.842 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 3f0132cf-cc36-4326-9999-1e50e3218ab7
+23:30:27.843 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:30:27.873 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\GabriellyPontes\.browserstack already exist
+23:30:27.874 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+23:30:27.874 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+23:30:27.948 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 2177674e-eafd-44c2-8efa-ca655e40c735
+23:30:27.949 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:30:27.999 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\GabriellyPontes\.browserstack already exist
+23:30:27.999 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 15eb8698-04be-4f9e-b16a-f41e3234b172
+23:30:28.000 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:30:28.004 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+23:30:28.004 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+23:30:28.064 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\GabriellyPontes\.browserstack already exist
+23:30:28.071 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+23:30:28.071 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+23:30:28.515 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+23:30:28.531 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+23:30:28.531 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+23:30:28.722 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+23:30:28.723 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+23:30:28.732 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+23:30:28.732 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+23:30:28.732 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+23:30:28.732 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+23:30:32.125 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:30:32.337 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:30:32.371 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:30:32.930 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo, TestClass :: tests\SingleTest
+23:30:33.381 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo, TestClass :: tests\SingleTest
+23:30:33.616 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo, TestClass :: tests\SingleTest
+23:30:37.753 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:30:37.770 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:30:38.214 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:30:38.224 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:30:38.349 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:30:38.358 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+23:30:39.328 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Response code 401. Message: Invalid username or password
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOPGABY', ip: '10.0.0.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Edge, browserVersion: latest, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: Edge, browserName: Edge, browserVersion: latest, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #2, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2330_DesktopGaby_IKG6, networkLogs: false, os: Windows, osVersion: 10, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}], desiredCapabilities=Capabilities {browserName: Edge, browserVersion: latest, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: Edge, browserName: Edge, browserVersion: latest, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #2, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2330_DesktopGaby_IKG6, networkLogs: false, os: Windows, osVersion: 10, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}}]
+Capabilities {}
+23:30:41.028 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Response code 401. Message: Invalid username or password
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOPGABY', ip: '10.0.0.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: Chrome, browserVersion: latest, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: Chrome, browserName: Chrome, browserVersion: latest, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #2, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2330_DesktopGaby_IKG6, networkLogs: false, os: OS X, osVersion: Big Sur, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}], desiredCapabilities=Capabilities {browserName: Chrome, browserVersion: latest, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: Chrome, browserName: Chrome, browserVersion: latest, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #2, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2330_DesktopGaby_IKG6, networkLogs: false, os: OS X, osVersion: Big Sur, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}}]
+Capabilities {}
+23:30:41.072 [ForkJoinPool-1-worker-1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error Could not start a new session. Response code 401. Message: Invalid username or password
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOPGABY', ip: '10.0.0.109', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, browserVersion: null, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: chrome, browserName: chrome, browserVersion: null, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #2, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2330_DesktopGaby_IKG6, networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}], desiredCapabilities=Capabilities {browserName: chrome, browserVersion: null, bstack:options: {accessKey: YOUR_ACCESS_KEY, browser: chrome, browserName: chrome, browserVersion: null, browserstackSDK: junit5-javaagent/1.43.0, buildIdentifier: #2, buildName: browserstack build, buildProductMap: {accessibility: null, app_automate: false, automate: true, observability: true, percy: false, turboscale: false}, consoleLogs: errors, debug: false, deviceName: Samsung Galaxy S22 Ultra, hostName: DesktopGaby, local: true, localIdentifier: 04_nov__2330_DesktopGaby_IKG6, networkLogs: false, osVersion: 12.0, projectName: BrowserStack Samples, source: junit5:archetype-setup:v1.2, testhubBuildUuid: , userName: YOUR_USERNAME}}}]
+Capabilities {}
+23:31:11.796 [main] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+23:31:11.957 [Thread-0] ERROR c.browserstack.testOps.RequestUtils - [RequestUtils] Error in stop: Non 200 response
+com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+23:31:12.941 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - [collectBuildData] Skipping build data collection: runSmartSelection is not enabled.
+23:31:12.942 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+23:31:13.273 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo\browserstack.yml
+23:31:14.086 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to upload logs : 401
+23:31:14.086 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to delete debug log: java.nio.file.FileSystemException: C:\Users\GabriellyPontes\Documents\QUARTO SEMESTRE\POO\tdd_poo\log\browserstack-javaagent.debug.log: O arquivo já está sendo usado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.sendLogs(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+23:31:14.086 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+23:31:14.365 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Execute API call to get build details failed - Unexpected character (H) at position 0.
+23:31:14.369 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 0491597b-ee76-4996-bc4b-c6885ec308b9, testhub id: 
+23:31:14.369 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
