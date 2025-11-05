@@ -1,39 +1,70 @@
-##  junit5-browserstack
-Master branch contains **Selenium 4 - W3C protocol** samples, for **Selenium 3** please checkout [selenium-3](https://github.com/nithyamn/junit5-browserstack/tree/selenium-3) branch
-</br>
-<a href="https://browserstack.com"><img src="https://avatars.githubusercontent.com/u/1119453?s=200&v=4" width="40" height="40"></a>
-<a href="https://junit.org/junit5/"><img src="https://camo.githubusercontent.com/abbaedce4b226ea68b0fd43521472b0b146d5ed57956116f69752f43e7ddd7d8/68747470733a2f2f6a756e69742e6f72672f6a756e6974352f6173736574732f696d672f6a756e6974352d6c6f676f2e706e67" width="40" height="40" ></a>
+# 🌡️ Conversor de Temperaturas
 
-## Setup
-* Clone the repo
-* Install dependencies `mvn install`
-* Update `browserstack.yml` files inside the root directory with your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings).
+[![Java](https://img.shields.io/badge/Java-8+-green)](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
+[![Maven](https://img.shields.io/badge/Maven-3.6+-C71A36)](https://maven.apache.org/)
+[![JUnit5](https://img.shields.io/badge/JUnit-5-blue)](https://junit.org/junit5/)
 
-## Running your tests
-* To run a single test, run `mvn test -P single`
-* To run local tests, run `mvn test -P local`
+Este é um projeto simples de **conversão de temperaturas** desenvolvido com **Java** (versão 8) e **JUnit 5** para testes automatizados. O projeto implementa a conversão entre diferentes escalas de temperatura, com foco em **Celsius**, **Fahrenheit** e **Kelvin**.
 
-Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
+## ⚙️ Funcionalidades
 
-## Notes
-* You can view your test results on the [BrowserStack Automate dashboard](https://www.browserstack.com/automate)
-* To test on a different set of browsers, check out our [platform configurator](https://www.browserstack.com/automate/java#setting-os-and-browser)
-* You can export the environment variables for the Username and Access Key of your BrowserStack account.
+O projeto contém a classe `TemperatureConverter` com os seguintes métodos de conversão:
 
-  * For Unix-like or Mac machines:
-  ```
-  export BROWSERSTACK_USERNAME=<browserstack-username> &&
-  export BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
-  ```
-  
-  * For Windows:
-  ```
-  set BROWSERSTACK_USERNAME=<browserstack-username>
-  set BROWSERSTACK_ACCESS_KEY=<browserstack-access-key>
-  ```
+- Celsius para Fahrenheit
+- Fahrenheit para Celsius
+- Celsius para Kelvin
+- Kelvin para Celsius
 
-## Open Issues
-* Value for `junit.jupiter.execution.parallel.config.fixed.parallelism` gets multiplied in selenium versions above `4.0.0-alpha-3`. 
-  Github issue:
-  * https://github.com/SeleniumHQ/selenium/issues/9359
-  * https://github.com/SeleniumHQ/selenium/issues/10113
+## 🚀 Como Rodar
+
+### Requisitos
+
+Antes de começar, você precisa ter os seguintes requisitos instalados:
+
+- **Java 8+**: [Baixe o JDK 8 aqui](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
+- **Maven 3.6+**: [Baixe o Maven aqui](https://maven.apache.org/download.cgi)
+
+### Passos para Rodar o Projeto
+
+1. Clone este repositório para a sua máquina:
+
+   ```bash
+   git clone https://seu-repositorio-url.git
+
+   ```
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd tdd_poo
+   ```
+3. Compile e execute os testes com Maven:
+   ```bash
+   mvn teste
+   ```
+
+# 📦 Estrutura do Projeto
+
+O projeto segue a seguinte estrutura de diretórios:
+
+```bash
+tdd_poo/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── converter/
+│   │           └── TemperatureConverter.java
+│   │
+│   └── test/
+│       └── java/
+│           └── converter/
+│               └── TemperatureConverterTest.java
+│
+└── pom.xml
+```
+- **src/main/java**: Contém a implementação da classe `TemperatureConverter`.
+- **src/test/java**: Contém a classe de testes `TemperatureConverterTest`.
+- **pom.xml**: Arquivo de configuração do Maven.
+
+
+
