@@ -9,5 +9,9 @@ public class TemperatureConverter {
     public double fahrenheitToCelsius(double fahrenheit) {
         return (fahrenheit - 32) * 5 / 9;
     }
+
+    public double celsiusToKevin(double celsius) {
+        return celsius + 273.15;
+    }
 }
 
