@@ -62,8 +62,8 @@ tdd_poo/
 │
 └── pom.xml
 ```
-• **src/main/java**: Contém a implementação da classe `TemperatureConverter`.
-• **src/test/java**: Contém a classe de testes `TemperatureConverterTest`.
-• **pom.xml**: Arquivo de configuração do Maven.
+- **src/main/java**: Contém a implementação da classe `TemperatureConverter`.
+- **src/test/java**: Contém a classe de testes `TemperatureConverterTest`.
+- **pom.xml**: Arquivo de configuração do Maven.
 
 
